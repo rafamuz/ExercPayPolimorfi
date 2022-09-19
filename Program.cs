@@ -34,7 +34,7 @@ namespace ExercPayPolimorf
                     lstEmp.Add(new OutsourcedEmployee(name, hours, valuePerH, aditionalCharge));
                 }                
             }
-
+            Console.WriteLine();
             Console.Write("PAYMENTS: ");
             foreach(Employee emp in lstEmp)
             {
